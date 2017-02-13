@@ -1,3 +1,6 @@
+.container{
+	max-width: 960px;
+}
 body{
     background-image: url("../images/seigaiha.png");
     background-repeat: repeat;
@@ -14,6 +17,15 @@ h1{
 	width: 240px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	text-align: center;
+}
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 1.75em;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #dddddd;
+	margin-bottom: 25px;
 }
 h3{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -23,14 +35,25 @@ h3{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
 .panel-body a{
-	padding-left: 7px;
+	float: left;
+	width: 33.3%;
+}
+.panel-body a img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
 }
 
 /*nav style overrides*/
 .nav{
 	display: inline-block;
 	font-size: 1.2em;
+}
+.navbar .container{
+	padding-left: 0px;
 }
 
 .navbar-fixed-bottom{ /*footer style*/
@@ -57,4 +80,14 @@ footer p{
 	font-weight: lighter;
 	font-size: .75em;
 	text-align: center;
+}
+#profilePic{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#bio{
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 150%;
 }
