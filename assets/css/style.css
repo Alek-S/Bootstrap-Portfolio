@@ -5,6 +5,9 @@ body{
     background-image: url("../images/seigaiha.png");
     background-repeat: repeat;
 }
+#mainArea{
+	margin-bottom: 100px;
+}
 h1{
 	color: #fff;
 	background-color: #4aaaa5;
@@ -93,4 +96,23 @@ footer p{
 }
 form{
 	margin-bottom: 25px;
+}
+.project{
+	display: inline-block;
+	width: 280px;
+	height: 200px;
+	box-sizing: border-box;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.projectName{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 280px;
+	box-sizing: border-box;
+	border: none;
+	position: relative;
+    bottom: 75px;
 }
